@@ -1,0 +1,6 @@
+psycopg2-binary
+pgvector
+python-dotenv
+google-generativeai
+sentence-transformers
+numpy
