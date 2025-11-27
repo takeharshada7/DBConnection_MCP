@@ -1,6 +1,14 @@
-psycopg2-binary
-pgvector
-python-dotenv
-google-generativeai
-sentence-transformers
-numpy
+# LangChain core package with bundled compatible versions
+langchain==0.3.27
+
+# LangChain core dependency (aligned with above LangChain version)
+langchain-core==0.3.72
+
+# Wrapper for Google Gemini embeddings in LangChain
+langchain-google-genai==2.1.5
+
+# Google GenAI foundational SDK matching above wrapper
+google-ai-generativelanguage==0.6.18
+
+# PostgreSQL driver
+psycopg2-binary>=2.9.5
